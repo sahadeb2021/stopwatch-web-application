@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class = "title">Stopwatch web application</h1>
+    </header>
+    <div class="container m-0 p-0">
+        <div class = "box">
+            <span id = "hour">00</span>
+            <span class = "unit">hr</span>
+            <span class = "colon">:</span>
+            <span id = "minute">00</span>
+            <span class = "unit">min</span>
+            <span class = "colon">:</span>
+            <span id = "second">00</span>
+            <span class = "unit">sec</span>
+            <span id = "decimal">.</span>
+            <span id = "milisecond"><sub>00</sub></span>
+        </div>
+    </div>
+
+    <div class="btn">
+        <div class="start">
+            <!-- <img  id = "start-btn" src="./icons/start.png" alt="start button"> -->
+            <!-- <img  class = "vis" id = "stop-btn" src="./icons/pause.png" alt="start button"> -->
+        </div>
+        <div class="laps">
+            <img id = "laps-btn" src="./icons/laps.png" alt="laps button" height = 70px width = 70px>
+        </div>
+        <div class="reset">
+            <img id = "reset-btn" src="./icons/reset.png" alt="reset button" height = 75px width = 75px>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
