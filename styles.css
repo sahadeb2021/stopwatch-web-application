@@ -98,3 +98,21 @@
     height:65px;
     width: 65px;
 }
+
+
+.laps-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.laps-container table{
+    border:dotted 2px black;
+}
+
+.laps-val, .time-val, .total-time-val{
+    width: 100px;
+    align-items: left;
+    border: solid 2px black;
+}
